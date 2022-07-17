@@ -1,0 +1,45 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: center;
+}
+div .logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+    height: 50px;
+}
+nav {
+    width: 73%;
+    padding: 1%;
+}
+ul {
+    width: 50%;
+    margin-left: auto;
+}
+
+footer {
+    padding: 1%;
+    border: solid black 2px;
+}
+footer.ul {
+    display: inline-block;
+    vertical-align: top;
+    justify-content: center;
+}
+section img {
+    height: 200px;
+}
+.heroImg {
+    background-image: linear-gradient(#000100,gray,white);
+}
+.flexContainer {
+    display: flex;
+    width: 33%;
+    margin: left;
+    padding: 0%;
+}
+.content {
+    display: flex;
+    margin-left: auto;
+}
+
