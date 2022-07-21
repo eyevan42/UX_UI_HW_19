@@ -8,6 +8,7 @@
     text-align: left;
     margin-bottom: 5%;
     margin-top: -5%;
+    cursor: pointer;
 
 }
 nav {
@@ -54,6 +55,7 @@ footer.ul {
     text-align: center;
     width: 450px;
     height: 150px;
+    border-radius: 15px;
 }
 .imgMain {
     height: 300px;
@@ -61,8 +63,12 @@ footer.ul {
     padding-left: 40px;
 }
 body {
-    height: 3000px;
-    background-image: linear-gradient(#000100,gray,white);
+    height: 400px;
+    background-image: linear-gradient(#000100,gray,silver);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .heroImg {
     display: inline-flex;
